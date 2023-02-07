@@ -41,3 +41,6 @@ keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>")
 -- markdown preview
 keymap.set("n", "<leader>md", "<cmd>MarkdownPreview<cr>")
 keymap.set("n", "<leader>mds", "<cmd>MarkdownPreviewStop<cr>")
+
+-- symbols outline
+keymap.set("n", "<leader>so", "<cmd>SymbolsOutline<cr>")
