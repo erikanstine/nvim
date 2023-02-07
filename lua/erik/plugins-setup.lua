@@ -109,6 +109,12 @@ return packer.startup(function(use)
 		end,
 	})
 
+	-- java
+	use("mfussenegger/nvim-jdtls")
+
+	-- structure outline
+	use("simrat39/symbols-outline.nvim")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
