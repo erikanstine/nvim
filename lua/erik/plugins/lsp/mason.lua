@@ -20,7 +20,7 @@ mason_lspconfig.setup({
 		"gradle_ls",
 		"groovyls",
 		"html",
-		"sumneko_lua",
+		"lua_ls",
 	},
 })
 
