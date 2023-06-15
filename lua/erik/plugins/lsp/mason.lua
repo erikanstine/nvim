@@ -21,11 +21,13 @@ mason_lspconfig.setup({
 		"groovyls",
 		"html",
 		"lua_ls",
+		"pyright",
 	},
 })
 
 mason_null_ls.setup({
 	ensure_installed = {
+		"black",
 		"stylua",
 	},
 })
