@@ -18,7 +18,7 @@ mason.setup()
 mason_lspconfig.setup({
 	ensure_installed = {
 		"gradle_ls",
-		"groovyls",
+		-- "groovyls",
 		"html",
 		"lua_ls",
 		"pyright",
