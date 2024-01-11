@@ -17,6 +17,7 @@ mason.setup()
 
 mason_lspconfig.setup({
 	ensure_installed = {
+		"gopls",
 		"gradle_ls",
 		-- "groovyls",
 		"html",
@@ -28,6 +29,7 @@ mason_lspconfig.setup({
 mason_null_ls.setup({
 	ensure_installed = {
 		"black",
+		"goimports",
 		"stylua",
 	},
 })

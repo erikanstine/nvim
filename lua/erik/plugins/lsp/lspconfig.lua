@@ -45,6 +45,11 @@ end
 -- used to enable autocompletion (assign to every lsp server config)
 local capabilities = cmp_nvim_lsp.default_capabilities()
 
+lspconfig["gopls"].setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+})
+
 lspconfig["gradle_ls"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
