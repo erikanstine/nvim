@@ -109,6 +109,9 @@ return packer.startup(function(use)
 		end,
 	})
 
+	-- github copilot
+	use("github/copilot.vim")
+
 	-- java
 	use("mfussenegger/nvim-jdtls")
 
